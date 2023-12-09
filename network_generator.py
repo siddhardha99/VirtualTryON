@@ -431,3 +431,5 @@ def get_nonspade_norm_layer(norm_type='instance'):
         return nn.Sequential(layer, norm_layer)
 
     return add_norm_layer
+
+#
