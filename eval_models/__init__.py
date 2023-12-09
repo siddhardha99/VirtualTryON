@@ -158,3 +158,5 @@ def im2tensor(image, imtype=np.uint8, cent=1., factor=255./2.):
 # def im2tensor(image, imtype=np.uint8, cent=1., factor=1.):
     return torch.Tensor((image / factor - cent)
                         [:, :, :, np.newaxis].transpose((3, 2, 0, 1)))
+
+#this
