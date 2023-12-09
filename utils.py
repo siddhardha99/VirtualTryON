@@ -117,3 +117,4 @@ def create_network(cls, opt):
         net.cuda()
     net.init_weights(opt.init_type, opt.init_variance)
     return net
+#e
