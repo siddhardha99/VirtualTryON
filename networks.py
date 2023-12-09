@@ -451,3 +451,6 @@ def define_D(input_nc, ndf=64, n_layers_D=3, norm='instance', use_sigmoid=False,
         netD.cuda()
     netD.apply(weights_init)
     return netD
+
+
+#
